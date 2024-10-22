@@ -237,7 +237,7 @@ ul li a:hover {
 /* Mobile Devices (Landscape) */
 @media (max-width: 480px) {
     ul li {
-        margin: 0 1em;
+        margin: 0 0.8em;
     }
 
     .content h1 {
