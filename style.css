@@ -51,7 +51,7 @@ ul {
 }
 
 ul li {
-    margin: 0 1em;
+    margin: 0 3em;
 }
 
 ul li a {
@@ -237,7 +237,7 @@ ul li a:hover {
 /* Mobile Devices (Landscape) */
 @media (max-width: 480px) {
     ul li {
-        margin: 0 0.3em;
+        margin: 0 1em;
     }
 
     .content h1 {
@@ -258,9 +258,9 @@ ul li a:hover {
     }
 
     .social-menu ul li a {
-        width: 1.8em; 
-        height: 1.8em; 
-        font-size: 1.5em;
+        width: 2.3em; 
+        height: 2.3em; 
+        font-size: 1.3em;
     }
 
     .aboutme h1 {
@@ -455,6 +455,12 @@ footer{
 
 /* Mobile Devices (Landscape) */
 @media (max-width: 480px) {
+    .middle-footer .footer-menu {
+        flex-direction: column; 
+        gap: 10px; 
+        justify-content: space-around;
+        align-items:center;
+    }
     .footer-social-icons {
         font-size: 18px;
         gap: 15px; 
