@@ -1,6 +1,6 @@
 /* Base Styles */
 * {
-    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+    box-sizing: border-box; 
 }
 
 html, body {
@@ -13,8 +13,8 @@ html, body {
 }
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%; /* Full viewport width */
-    min-height: 100vh; /* Ensure body takes at least full viewport height */
+    width: 100%; 
+    min-height: 100vh; 
 }
 
 /* Container styling */
@@ -194,7 +194,7 @@ ul li a:hover {
 /* Tablets (Portrait) and Mobile Devices */
 @media (max-width: 768px) {
     .navbar {
-        height: auto; /* Allow the navbar to expand for smaller screens */
+        height: auto; 
     }
 
     ul li {
@@ -293,23 +293,23 @@ ul li a:hover {
 
 /* Hover Effect for Project Boxes */
 .card-body:hover {
-    transform: scale(1.05); /* Slightly enlarge the box on hover */
-    box-shadow: 0 0.5em 0.4em rgba(0,0,0,.5); /* Enhance shadow effect on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 0.5em 0.4em rgba(0,0,0,.5); 
 }
 
 /* For mobile devices (up to 767px) */
 @media (max-width: 767px) {
     .col-md-3 {
-        flex: 0 0 100%; /* Full width on mobile */
+        flex: 0 0 100%; 
         max-width: 100%;
-        margin-bottom: 20px; /* Space between cards */
+        margin-bottom: 20px;
     }
 }
 
 /* For tablets (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-3 {
-        flex: 0 0 50%; /* Two cards in a row */
+        flex: 0 0 50%; 
         max-width: 50%;
     }
 }
@@ -317,7 +317,7 @@ ul li a:hover {
 /* For laptops and larger screens (992px and above) */
 @media (min-width: 992px) {
     .col-md-3 {
-        flex: 0 0 25%; /* Four cards in a row */
+        flex: 0 0 25%; 
         max-width: 25%;
     }
 }
@@ -328,8 +328,8 @@ ul li a:hover {
     text-align: center;
 }
 .contact-info {
-    max-width: 600px; /* Constrain the width for better readability */
-    margin: auto; /* Center the content */
+    max-width: 600px; 
+    margin: auto; 
 }
 .contact-info h1 {
     font-size: 2.5em;
@@ -342,20 +342,20 @@ ul li a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 3em; /* Size of the icon container */
-    height: 3em; /* Size of the icon container */
-    margin: 0.5em; /* Space between icons */
-    border-radius: 50%; /* Circular background */
-    background-color: #ff7200; /* Background color for icons */
-    color: #fff; /* Icon color */
-    font-size: 1.5em; /* Size of the icon */
-    text-decoration: none; /* Remove underline from links */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    width: 3em; 
+    height: 3em; 
+    margin: 0.5em; 
+    border-radius: 50%; 
+    background-color: #ff7200;
+    color: #fff; 
+    font-size: 1.5em; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .contact-info a:hover {
-    background-color: #e65a00; /* Darker background on hover */
-    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    background-color: #e65a00; 
+    transform: scale(1.1); 
 }
 
 /* Media Queries */
@@ -363,34 +363,34 @@ ul li a:hover {
 /* Tablets (Portrait) */
 @media (max-width: 768px) {
     .contact-info {
-        padding: 1em; /* Adjust padding for smaller screens */
+        padding: 1em; 
     }
 
     .contact-info h1 {
-        font-size: 2em; /* Reduce font size for smaller screens */
+        font-size: 2em; 
     }
 
     .contact-info a {
-        width: 2.5em; /* Smaller size for icons */
-        height: 2.5em; /* Smaller size for icons */
-        font-size: 1.2em; /* Adjust font size for icons */
+        width: 2.5em; 
+        height: 2.5em;
+        font-size: 1.2em; 
     }
 }
 
 /* Mobile Devices (Landscape) */
 @media (max-width: 480px) {
     .contact-info {
-        padding: 1em; /* Adjust padding further for very small screens */
+        padding: 1em; 
     }
 
     .contact-info h1 {
-        font-size: 1.75em; /* Further reduce font size */
+        font-size: 1.75em; 
     }
 
     .contact-info a {
-        width: 2em; /* Further reduce size for icons */
-        height: 2em; /* Further reduce size for icons */
-        font-size: 1em; /* Further adjust font size for icons */
+        width: 2em;
+        height: 2em; 
+        font-size: 1em; 
     }
 }
 
@@ -435,32 +435,32 @@ footer{
 /* Tablets (Portrait) and Smaller Screens */
 @media (max-width: 768px) {
     footer {
-        padding: 20px 30px; /* Reduce padding on smaller screens */
+        padding: 20px 30px; 
     }
 
     .middle-footer .footer-menu {
-        flex-direction: column; /* Stack menu items vertically */
-        gap: 10px; /* Space between stacked menu items */
+        flex-direction: column; 
+        gap: 10px; 
     }
 
     .footer-social-icons {
-        font-size: 20px; /* Reduce icon size for smaller screens */
-        gap: 20px; /* Space between icons */
+        font-size: 20px; 
+        gap: 20px;
     }
     
     .bottom-footer {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px; 
     }
 }
 
 /* Mobile Devices (Landscape) */
 @media (max-width: 480px) {
     .footer-social-icons {
-        font-size: 18px; /* Further reduce icon size */
-        gap: 15px; /* Space between icons */
+        font-size: 18px;
+        gap: 15px; 
     }
 
     .bottom-footer {
-        font-size: 12px; /* Further adjust font size */
+        font-size: 12px; 
     }
 }
